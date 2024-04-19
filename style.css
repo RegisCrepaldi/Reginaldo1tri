@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+header{
+    background-color: rgba(9, 87, 2, 0.582);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0 24px 0;
+}
+
+.cabecalho-imagem{
+    border-radius: 40px;
+    width: 40%;
+    justify-content: left;
+    margin-left: -88px;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 100px 50px 0 0;
+    font-size: 30px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.escola-imagem{
+    width: 30%;
+    margin-left: 40px;
+}
+
+.turmas{
+    background-image: linear-gradient(rgba(41, 41, 41, 0.356),rgba(9, 87, 2, 0.582));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.turmas-titulo{
+    color: white;
+    font-size: 40px;
+}
+
+.turmas-div{
+    width: 35%;
+}
+
+.turmas-texto1{
+    padding: 24px 0;
+    text-align: justify;
+}
+
+.turmas-texto2{
+    text-align: justify;
+}
+
+.professores{
+    font-family: "Space Grotesk", sans-serif;
+    background-image: linear-gradient(rgba(9, 87, 2, 0.582),rgba(41, 41, 41, 0.356));
+}
+
+.professores-imagem{
+    width: 200px;
+    border-radius: 40px;
+}
+
+.professores-icone{
+    width: 24px;
+    padding: 0 1em 2em 0;
+}
+
+.professores-div{
+    text-align: center;
+}
+
+.professores-titulo{
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    font-size: 40px;
+}
+
+.professores-nome{
+    padding: 0 0 0.5em 0;
+}
+
+.professores-todos{
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+}
+
+.rodape-todos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.rodape{
+    height: auto;
+    width: auto;
+    padding: 0.5em 0 0.5em 2em;
+    background-color: rgba(9, 87, 2, 0.582);
+}
+
+.tiago{
+    border-radius: 20px;
+    width: 180px;
+    height: 101px;
+}
+  
+.by{
+    text-align: right;
+    margin-right: 1em;
+    font-size: 20px;
+    margin-top: auto;
+}
