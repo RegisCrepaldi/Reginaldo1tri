@@ -8,7 +8,7 @@
 
 header{
     background-color: rgba(9, 87, 2, 0.582);
-    color: white;
+    color: rgb(157, 240, 119);
     display: flex;
     justify-content: space-around;
     padding: 24px 0 24px 0;
@@ -29,73 +29,31 @@ header{
 
 .cabecalho-lista-item a{
     text-decoration: none;
-    color: white;
+    color: rgb(33, 228, 15);
 }
 
-.escola-imagem{
-    width: 30%;
-    margin-left: 40px;
-}
+
 
 .turmas{
-    background-image: linear-gradient(rgba(41, 41, 41, 0.356),rgba(9, 87, 2, 0.582));
+    background-image: linear-gradient(rgba(91, 228, 121, 0.747),rgba(15, 170, 10, 0.966));
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-.turmas-titulo{
-    color: white;
+.jogos-titulo{
+    color: rgb(66, 216, 134);
     font-size: 40px;
 }
 
-.turmas-div{
+.jogos-div{
     width: 35%;
 }
 
-.turmas-texto1{
+.jogos-texto1{
     padding: 24px 0;
     text-align: justify;
-}
-
-.turmas-texto2{
-    text-align: justify;
-}
-
-.professores{
-    font-family: "Space Grotesk", sans-serif;
-    background-image: linear-gradient(rgba(9, 87, 2, 0.582),rgba(41, 41, 41, 0.356));
-}
-
-.professores-imagem{
-    width: 200px;
-    border-radius: 40px;
-}
-
-.professores-icone{
-    width: 24px;
-    padding: 0 1em 2em 0;
-}
-
-.professores-div{
-    text-align: center;
-}
-
-.professores-titulo{
-    text-align: center;
-    padding: 50px 0;
-    color: white;
-    font-size: 40px;
-}
-
-.professores-nome{
-    padding: 0 0 0.5em 0;
-}
-
-.professores-todos{
-    display: grid;
-    grid-template-columns: 10% 20% 20% 20% 20% 10%;
 }
 
 .rodape-todos{
@@ -107,14 +65,9 @@ header{
     height: auto;
     width: auto;
     padding: 0.5em 0 0.5em 2em;
-    background-color: rgba(9, 87, 2, 0.582);
+    background-color: rgba(35, 245, 16, 0.582);
 }
 
-.tiago{
-    border-radius: 20px;
-    width: 180px;
-    height: 101px;
-}
   
 .by{
     text-align: right;
