@@ -7,8 +7,8 @@
 }
 
 header{
-    background-color: rgba(9, 87, 2, 0.582);
-    color: rgb(157, 240, 119);
+    background-color: rgba(18, 136, 7, 0.582);
+    color: rgb(144, 206, 116);
     display: flex;
     justify-content: space-around;
     padding: 24px 0 24px 0;
@@ -35,7 +35,7 @@ header{
 
 
 .turmas{
-    background-image: linear-gradient(rgba(91, 228, 121, 0.747),rgba(15, 170, 10, 0.966));
+    background-image: linear-gradient(rgba(56, 216, 90, 0.747),rgba(44, 236, 38, 0.966));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ header{
 }
 
 .jogos-titulo{
-    color: rgb(66, 216, 134);
+    color: rgb(77, 228, 145);
     font-size: 40px;
 }
 
@@ -65,7 +65,7 @@ header{
     height: auto;
     width: auto;
     padding: 0.5em 0 0.5em 2em;
-    background-color: rgba(35, 245, 16, 0.582);
+    background-color: rgba(48, 245, 41, 0.781);
 }
 
   
@@ -74,4 +74,12 @@ header{
     margin-right: 1em;
     font-size: 20px;
     margin-top: auto;
+}
+
+.Jogos{
+    padding: 2em 0 2em 1em;
+}
+
+.img{
+    width: 13%;
 }
