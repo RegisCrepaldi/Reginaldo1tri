@@ -8,7 +8,7 @@
 
 header{
     background-color: rgba(18, 136, 7, 0.582);
-    color: rgb(144, 206, 116);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     padding: 24px 0 24px 0;
@@ -29,7 +29,7 @@ header{
 
 .cabecalho-lista-item a{
     text-decoration: none;
-    color: rgb(33, 228, 15);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -65,7 +65,7 @@ header{
     height: auto;
     width: auto;
     padding: 0.5em 0 0.5em 2em;
-    background-color: rgba(48, 245, 41, 0.781);
+    background-color: rgba(21, 87, 18, 0.781);
 }
 
   
@@ -81,5 +81,5 @@ header{
 }
 
 .img{
-    width: 13%;
+    width: 20%;
 }
